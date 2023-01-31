@@ -1,8 +1,8 @@
 #!/bin/bash 
 # Calls out varriables for packages that will be installed
-x="sudo apt install kodi"
-gnome="sudo apt install gnome-core"
-z="sudo apt install libavcodec-extra"
+x="sudo apt install kodi -y"
+gnome="sudo apt install gnome-core -y"
+z="sudo apt install libavcodec-extra -y"
 # Calling out zz varriable to exit later in the script i echo it 
 zz="Exiting...."
 
